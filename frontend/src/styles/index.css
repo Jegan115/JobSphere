@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2563EB;
+  --color-accent: #F97316;
+}
+
+body {
+  @apply bg-gray-50 text-slate-800 antialiased;
+}
+
+.dark body {
+  @apply bg-slate-900 text-slate-100;
+}
+
+/* Card utility */
+.card {
+  @apply bg-white dark:bg-slate-800 rounded-lg shadow-card p-4;
+}
